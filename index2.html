@@ -1,17 +1,52 @@
 <!doctype html>
 <html>
      <head>
-       <title>My First Webpage</title>
+       <title>Clarence World!</title>
 
        <meta charset="utf-utf-8" />
        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
        <meta name="viewport" content="width=device-width, initial-scale=1" />
 
+       <style type="text/css">
+
+         p {
+           color: blue;
+         }
+
+         .large {
+           font-size: 300%;
+         }
+         .yellow {
+             color:yellow;
+         }
+         .bold {
+           font-weight: bold;
+         }
+         div {
+           background-color: tan;
+           border-radius: 10px;
+         }
+         .titlename {
+           background-color: #7A0000;
+           text-align: center;
+           font-family: fantasy;
+         }
+         body {
+           width: 1000px;
+           margin: 0 auto;
+
+         }
+       </style>
+
      </head>
        <body>
-         <div>
-           <h1>Clarence Webpage</h1>
-           <h2>My favorite books</h2>
+
+         <div class="titlename">
+           <h1><span class="large yellow bold">Clarence World!</span></h1>
+         </div>
+
+          <div>
+           <h2>My Favorite Books</h2>
 
              <ol>
                <li><a href="http://bvlarson.com/index.php/all-books">StarForce: Swarm</a></li>
@@ -23,8 +58,8 @@
                <a href="http://bvlarson.com/index.php/all-books"><img src="Images/Swarm.png" height="200"width="150" /><a/>
                <a href="http://bvlarson.com/index.php/all-books"><img src="Images/Steelworld.png" height="200"width="150" /><a/>
                <a href="https://ambroseibsen.com/book/black-acres-the-complete-collection/"><img src="Images/BA.jpg" height="200"width="150"/><a/>
-
-          <h2>My favorite authors</h2>
+             <hr />
+          <h2>My Favorite Authors</h2>
 
              <ol>
                <li><a href="http://bvlarson.com/">B V Larson</a></li>
@@ -33,6 +68,17 @@
                <li><a href="http://darcycoates.com/">Darcy Coates</a></li></p>
 
             </ol>
-       </div>
+
+        <hr />
+        <h2>My favorite Audio Book</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/se7HBW78HhE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p>To hear the audio verions go to audible.com for more information.</p>
+
+
+        <form action="https://www.audible.com/?ref=a_hp_t1_nav_header_logo&pf_rd_p=28c80a81-95b2-4e49-9051-a761d6217eaf&pf_rd_r=SQ4AFYF55X0C230YB9ZN&">
+
+        <input type="submit" value="Click Here!">
+      </form>
+    </div>
      </body>
 </html>
